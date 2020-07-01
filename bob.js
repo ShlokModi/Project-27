@@ -3,7 +3,7 @@ class Bob{
         var options={
             isStatic:false,
             restitution:1.0,
-            friction:0.5,
+            friction:0,
             density:0.2,
         }
         this.body = Bodies.circle(x,y,20,options);

@@ -4,7 +4,8 @@ class Rope{
         this.offsetY=offsetY;
         var options={
             bodyA:bodyA,
-            pointB:pointB
+            pointB:pointB,
+            stiffness:1.0
         }
         this.Rope = Constraint.create(options);
         this.pointB = pointB;
