@@ -34,11 +34,11 @@ function setup() {
 	Bob5 = new Bob (320,650);
 	Ground1 = new Roof(400,690,800,20);
 	Roof1 = new Roof(400,415,200,30);
-	rope1=new Rope(Bob5.body,{x:400,y:415},-bobDiameter*2,0);
-	rope2=new Rope(Bob4.body,{x:400,y:415},-bobDiameter*1,0);
-	rope3=new Rope(Bob1.body,{x:400,y:415},0,0);
-	rope4=new Rope(Bob2.body,{x:400,y:415},bobDiameter*1,0);
-	rope5=new Rope(Bob3.body,{x:400,y:415},bobDiameter*2,0);
+	rope1=new Rope(Bob5.body,Roof1.body,-bobDiameter*2,0);
+	rope2=new Rope(Bob4.body,Roof1.body,-bobDiameter*1,0);
+	rope3=new Rope(Bob1.body,Roof1.body,0,0);
+	rope4=new Rope(Bob2.body,Roof1.body,bobDiameter*1,0);
+	rope5=new Rope(Bob3.body,Roof1.body,bobDiameter*2,0);
 }
 
 

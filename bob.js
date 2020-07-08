@@ -18,6 +18,6 @@ class Bob{
         //rotate(angle);
         //ellipseMode(RADIUS);
         ellipse(pos.x,pos.y,40,40);
-        pop();
+        //pop();
     }
 };
